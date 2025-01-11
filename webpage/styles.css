@@ -295,3 +295,47 @@ table, tr, td {
   width: 80px;
   height: 18px;
 }
+.donate{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.gid{
+  display: flex;
+  justify-content:space-evenly;
+  /* max-width: 500px; */
+  /* align-items: center; */
+  
+}
+.option-button{
+    background-color: rgb(179, 176, 176);
+    padding: 20px;
+    margin: o 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.option-button:hover{
+  background-color: rgb(230, 229, 229);
+}
+
+.bt{
+  color: white;
+  padding:10px 20px ;
+  background-color:#006A50 ;
+  border: none;
+  border-radius:5px ;
+  margin-top:10px ;
+}
+.input{
+  border:1px solid;
+  border-radius: 5px;
+  padding:10px ;
+  width: 90%;
+  margin-top: 20px;
+  
+}
