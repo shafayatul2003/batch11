@@ -1,0 +1,217 @@
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    /* background-color: white; */
+
+}
+body{
+
+    margin: 0 160px;
+    background-color: #D5D6D8;
+}
+
+
+
+.button{
+    border-radius: 5px;
+    border-color: #006A50;
+    color: #006A50;
+    padding: 5px 10px;
+
+}
+/* banner1 */
+.banner1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 40px 40px;
+
+}
+.banner1 img{
+    max-width: 300px;
+}
+.button2{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.card-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.card-icon img{
+    width: 50px;
+    height: 50px;
+    
+}
+.card-icon h5+p{
+    font-size: 10px;
+}
+.card1{
+    background-color: #adc7eb;
+    padding: 15px 0 5px 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.card1 button{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+.card2{
+    background-color: #C6E4D6;
+    padding: 15px 0 5px 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.card2 button{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+.card3{
+    background-color: #F7EBCF;
+    padding: 15px 0 5px 15px;
+    
+    border-radius: 10px;
+}
+.card3 button{
+    background-color: #FFC239;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+/* quote styles */
+.quote{
+    background-image:url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 10px 11px ;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin-top: 20px;
+
+}
