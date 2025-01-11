@@ -329,7 +329,7 @@ table, tr, td {
   background-color:#006A50 ;
   border: none;
   border-radius:5px ;
-  margin-top:10px ;
+  margin:10px 0;
 }
 .input{
   border:1px solid;
@@ -338,4 +338,14 @@ table, tr, td {
   width: 90%;
   margin-top: 20px;
   
+}
+.footer{
+  text-align: center;
+}
+.klb{
+  text-align: center;
+  margin: auto;
+}
+.hit{
+  background-color: #FFC239;
 }
