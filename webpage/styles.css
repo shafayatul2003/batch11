@@ -138,6 +138,7 @@ body{
     justify-content: space-between;
     background-color: #C6E4D6;
     padding: 40px 40px;
+    border-radius: 10px;
 
 }
 .banner1 img{
@@ -207,11 +208,90 @@ body{
 /* quote styles */
 .quote{
     background-image:url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;                          
     background-position: 10px 11px ;
     background-color: white;
     border-radius: 5px;
     padding: 20px 10px;
     margin-top: 20px;
 
+}
+
+/* table style */
+
+.opinion{
+  background-color: white;
+
+
+}                                                        
+.opinion-table{
+  background-color: white;
+  padding: 20px;
+}
+.table{
+  margin: 20px;
+  border-collapse: collapse;
+  border-color: black;                                                
+
+
+}
+
+.row1{ 
+  background-color: #C6E4D6;
+  
+
+}
+                                  
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+.th{
+  text-align: left ;
+}
+
+.bbb{
+  background-color: #C6E4D6;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  vertical-align: center ;
+}
+
+.carac{
+  display: flex;
+  align-items: center;
+  padding:10px ;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 12px;
+  background-color: white;
+  border-radius:5px;
+}
+.carac button{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+  
+}
+.kkr{
+  
+  padding: 20 px;
+  
+}
+.satelite{
+  width: 250px;
+  height:150px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.al-jazeera{
+  width: 80px;
+  height: 18px;
 }
